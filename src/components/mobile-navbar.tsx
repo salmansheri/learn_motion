@@ -64,7 +64,7 @@ const MobileNavbar = () => {
           <MotionConfig
             transition={{
               type: "spring",
-              bounce: 0.25,
+              bounce: 0.099,
             }}
           >
             <motion.div
@@ -75,7 +75,7 @@ const MobileNavbar = () => {
                   transition: {
                     when: "beforeChildren",
                     type: "spring",
-                    bounce: 0.25,
+                    bounce: 0.099,
                   },
                 },
                 closed: {
@@ -83,7 +83,7 @@ const MobileNavbar = () => {
                   transition: {
                     when: "afterChildren",
                     type: "spring",
-                    bounce: 0.25,
+                    bounce: 0.099,
                   },
                 },
               }}
